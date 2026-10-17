@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+*.db
+qa/
+source_extract.json
+profile.py
+prepare.py
+build_workbook.mjs
+write_docs.py
