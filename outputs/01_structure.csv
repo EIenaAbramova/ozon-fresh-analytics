@@ -1,0 +1,4 @@
+﻿table_name,rows_count,unique_keys
+orders,45101,45101
+order_items,50864,50864
+products_category,32951,32951

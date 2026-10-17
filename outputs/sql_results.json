@@ -1,0 +1,104 @@
+{
+  "01_structure": [
+    {
+      "table_name": "orders",
+      "rows_count": 45101,
+      "unique_keys": 45101
+    },
+    {
+      "table_name": "order_items",
+      "rows_count": 50864,
+      "unique_keys": 50864
+    },
+    {
+      "table_name": "products_category",
+      "rows_count": 32951,
+      "unique_keys": 32951
+    }
+  ],
+  "02_orders": [
+    {
+      "orders_count": 45101,
+      "first_purchase": "2017-01-05T00:00:00",
+      "last_purchase": "2017-12-31T00:00:00"
+    }
+  ],
+  "03_july_customers": [
+    {
+      "july_customers": 3947
+    }
+  ],
+  "04_delivery": [
+    {
+      "all_orders": 45101,
+      "observed_deliveries": 43426,
+      "missing_deliveries": 1675,
+      "mean_days": 12.97904481186386
+    }
+  ],
+  "05_delivery_distribution": [
+    {
+      "metric": "P25",
+      "days": 7.0
+    },
+    {
+      "metric": "P75",
+      "days": 16.0
+    },
+    {
+      "metric": "P90",
+      "days": 23.0
+    },
+    {
+      "metric": "P95",
+      "days": 29.0
+    },
+    {
+      "metric": "median",
+      "days": 11.0
+    },
+    {
+      "metric": "mean",
+      "days": 12.97904481186386
+    },
+    {
+      "metric": "max",
+      "days": 210.0
+    },
+    {
+      "metric": "min",
+      "days": 0.0
+    }
+  ],
+  "06_q2_sku": [
+    {
+      "q2_unique_sku": 4762
+    }
+  ],
+  "07_q2_price": [
+    {
+      "ordered_units": 10403,
+      "mean_unit_price": 124.87138037104681,
+      "merchandise_value": 1299036.97
+    }
+  ],
+  "08_seventh_category": [
+    {
+      "product_category_name": "toys",
+      "category_orders": 2452,
+      "popularity_rank": 7,
+      "share_all_orders": 0.05436686547970111
+    }
+  ],
+  "09_category_union": [
+    {
+      "all_orders": 45101,
+      "bed_orders": 4503,
+      "computer_orders": 2618,
+      "both_orders": 1,
+      "either_orders": 7120,
+      "share_either": 0.15786789649896898,
+      "share_both": 2.2172457373450698e-05
+    }
+  ]
+}
